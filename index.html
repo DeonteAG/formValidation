@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Digital Native Task</title>
+	<link href="formValidation.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<script src="formValidation.js"></script>
+		<div id="main">
+			<p>
+			Name:
+			<input type="text" id="name" placeholder="Enter Your Name" onfocusout="nameValidation() ">
+			</p>
+			<p>
+			Email:
+			<input type="text" id="email" placeholder="Enter Your Email" onfocusout="emailValidation() ">
+			</p>
+			<p>
+			Card:
+			<input type="integer" id="card" placeholder="Enter Credit Card No." onfocusout="cardValidation()">
+			</p>
+			<button onclick="sendMail();">Submit</button>
+		</div>
+	</body>
+</html>
